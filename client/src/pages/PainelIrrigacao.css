@@ -89,7 +89,7 @@ body {
 .card {
   background-color: white;
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* sombra mais visível - ant*/
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* sombra mais visível */
   padding: 1.5rem;
   flex: 1;
   display: flex;
@@ -111,9 +111,9 @@ button {
   border-radius: 6px;
   border: none;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* <<< sombra adicionada - antonia*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* <<< sombra adicionada */
 }
-/***/
+
 button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -247,7 +247,7 @@ button.ghost:hover {
 .switch input:checked + .slider-switch:before {
   transform: translateX(24px);
 }
-
+ 
 .temp-icon:hover,
 .power-icon:hover {
   color: #38a169;
