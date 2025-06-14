@@ -7,7 +7,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f7fafc;
+  background: linear-gradient(to right, #38a169, #2b6cb0);
   color: #1a202c;
 }
 
@@ -16,7 +16,12 @@ body {
   background-color: #242424;
   padding: 1rem 2rem;
   color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+
 
 .navbar-container {
   margin: 0 auto;
@@ -84,7 +89,7 @@ body {
 .card {
   background-color: white;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* sombra mais visível - ant*/
   padding: 1.5rem;
   flex: 1;
   display: flex;
@@ -106,8 +111,13 @@ button {
   border-radius: 6px;
   border: none;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* <<< sombra adicionada - antonia*/
 }
-
+/***/
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
 button.add-button {
   align-self: flex-start;
   background-color: #242424;
@@ -236,6 +246,12 @@ button.ghost:hover {
 
 .switch input:checked + .slider-switch:before {
   transform: translateX(24px);
+}
+
+.temp-icon:hover,
+.power-icon:hover {
+  color: #38a169;
+  transition: color 0.3s ease;
 }
 
 /* Footer */
