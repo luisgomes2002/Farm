@@ -58,11 +58,19 @@ body {
   grid-template-columns: 1fr 35%;
   padding: 1rem;
   gap: 1.5rem;
+  min-height: 85vh;
 }
 
 .card-area {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (min-width: 1352px) {
+  .card-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 768px) {
@@ -91,7 +99,6 @@ h2 {
   color: #2d3748;
 }
 
-/* Botões */
 button {
   cursor: pointer;
   padding: 0.5rem 1rem;

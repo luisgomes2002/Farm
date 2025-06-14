@@ -166,3 +166,11 @@ input:disabled + .slider-switch:before {
 .alert-title {
   font-weight: 600;
 }
+
+.status-ativo {
+  color: green;
+}
+
+.status-inativo {
+  color: red;
+}
