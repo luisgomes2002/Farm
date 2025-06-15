@@ -7,7 +7,6 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to right, #38a169, #2b6cb0);
   color: #1a202c;
 }
 
@@ -63,7 +62,7 @@ body {
   grid-template-columns: 1fr 35%;
   padding: 1rem;
   gap: 1.5rem;
-  min-height: 85vh;
+  min-height: 45vh;
 }
 
 .card-area {
