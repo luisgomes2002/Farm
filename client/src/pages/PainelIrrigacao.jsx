@@ -79,21 +79,6 @@ export default function PainelIrrigacao() {
                 Home
               </a>
             </li>
-            <li role="none">
-              <a href="#sensores" role="menuitem">
-                Sensores
-              </a>
-            </li>
-            <li role="none">
-              <a href="#controle" role="menuitem">
-                Controle
-              </a>
-            </li>
-            <li role="none">
-              <a href="#sobre" role="menuitem">
-                Sobre
-              </a>
-            </li>
           </ul>
         </div>
       </nav>
