@@ -3,6 +3,8 @@ import SensorInfoCard from "../components/SensorInfoCard";
 import "./PainelIrrigacao.css";
 import axios from "axios";
 
+// test
+
 export default function PainelIrrigacao() {
   const [dados, setDados] = useState({});
   const [erro, setErro] = useState("");
