@@ -20,8 +20,8 @@ export default function PainelIrrigacao() {
     const buscarDados = async () => {
       try {
         const [resSensores, resAlertas] = await Promise.all([
-          axios.get("http://192.168.180.191:3000/sensores"),
-          axios.get("http://192.168.180.191:3000/alertas"),
+          axios.get("http://192.168.0.117:3000/sensores"),
+          axios.get("http://192.168.0.117:3000/alertas"),
         ]);
 
         if (!isMounted) return;
