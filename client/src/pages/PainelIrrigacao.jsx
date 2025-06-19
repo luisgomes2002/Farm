@@ -118,7 +118,6 @@ export default function PainelIrrigacao() {
             </svg>
             <span>
               <strong>Última Leitura:</strong>{" "}
-//
               {ultimaLeitura ? new Date(ultimaLeitura).toLocaleString() : "N/A"}
             </span>
           </div>
